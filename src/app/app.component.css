@@ -1,0 +1,50 @@
+mat-sidenav-container {
+  margin-top: 64px;
+}
+mat-sidenav,
+mat-sidenav-content {
+  padding: 16px;
+}
+mat-sidenav {
+  background-color: rgb(50, 50, 50);
+}
+.sidenav_links {
+  color: white;
+  font-size: 20px;
+}
+.sidenav_heading {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  /* font-weight: bold; */
+  text-decoration: underline;
+}
+mat-toolbar {
+  background-color: #015daa;
+}
+
+mat-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  font-size: 30px;
+}
+.nav_toggleBtn {
+  background-color: transparent;
+  border: 0;
+  /* padding: 0;
+  width: fit-content;
+  height: fit-content; */
+}
+.nav_toggleBtn:hover {
+  cursor: pointer;
+}
+.nav_toggleBtn:focus {
+  outline: none;
+}
+a.mat-list-item.is-active {
+  font-weight: bold;
+  text-decoration: underline;
+}
